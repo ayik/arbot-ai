@@ -1,6 +1,6 @@
 {
-"name": "TOHID-AI",
-"version": "2.9.7", 
+"name": "ARBOT-AI",
+"version": "6.5.1", 
 "homepage": ".",
 "description": "A WhatsApp Bot Created By TOHID KHAN",
 "main": "index.js",
@@ -22,16 +22,16 @@
 "test2": "nodemon index.js"
    },
     
-"homepage": "https://github.com/Tohidkhan6332/TOHID-AI",
+"homepage": "https://github.com/ayik/ARBOT-AI",
 "author": {
 "name": "dasta" },
     
 "repository": {
 "type": "git",
-"url": "git+https://github.com/Tohidkhan6332/TOHID-AI.git" },
+"url": "git+https://github.com/ayik/ARBOT-AI.git" },
 
 "bugs": {
-"url": "https://github.com/Tohidkhan6332/TOHID-AI/issues" },
+"url": "https://github.com/ayik/ARBOT-AI/issues" },
   "dependencies": {
     "@adiwajshing/keyed-db": "^0.2.4",
     "@brandond/findthelyrics": "^2.0.5",
