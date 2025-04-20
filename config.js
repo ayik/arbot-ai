@@ -6,11 +6,11 @@ import fs from 'fs'
 import dotenv from 'dotenv'
 dotenv.config()
 
-const defaultOwner = '917849917350';
+const defaultOwner = '6285161714488';
 
 
 // Check for the OWNERS environment variable; if not found, use the default
-const ownervb = process.env.OWNERS || process.env.OWNER_NUMBER || '917849917350' ; // put your number here
+const ownervb = process.env.OWNERS || process.env.OWNER_NUMBER || '6285161714488' ; // put your number here
 
 const ownerlist = ownervb.split(';');
 
@@ -19,8 +19,8 @@ for (let i = 0; i < ownerlist.length; i++) {
     global.owner.push([ownerlist[i], true]);
 }
 //
-global.botname = process.env.BOTNAME || 'TOHID-AI';
-global.pairingNumber = process.env.BOT_NUMBER || '918930358452' ;  // put your number here
+global.botname = process.env.BOTNAME || 'ARBOT-AI';
+global.pairingNumber = process.env.BOT_NUMBER || '6285161714488' ;  // put your number here
 global.SESSION_ID = process.env.SESSION_ID || '' ;  // put your session id here
 
 global.mods = []
@@ -42,7 +42,7 @@ global.keysneoxrrr = ['5VC9rvNx', 'cfALv5']
 global.keysneoxr = keysneoxrrr[Math.floor(keysneoxrrr.length * Math.random())]
 global.lolkeysapi = ['GataDios']
 
-global.canal = 'https://whatsapp.com/channel/0029VaGyP933bbVC7G0x0i2T'
+global.canal = 'https://whatsapp.com/channel/0029VbAy0Yk0G0XgdDyxgX2v'
 
 
 global.APIs = {
@@ -85,12 +85,12 @@ global.tohidImg = [imagen1, imagen2]
 
 // Sticker WM
 global.premium = 'true'
-global.packname = 'TOHID-AI'
-global.author = 'Tohidkhan6332'
+global.packname = 'ARBOT-AI'
+global.author = 'ayikhost'
 global.menuvid = 'https://i.imgur.com/2Sp3cqD.mp4'
-global.igfg = ' Follow on Instagram\nhttps://www.instagram.com/Tohidkhan6332'
+global.igfg = ' Follow on Instagram\nhttps://www.instagram.com/ayikhost'
 global.dygp = 'https://whatsapp.com/channel/0029VaGyP933bbVC7G0x0i2T'
-global.fgsc = 'https://github.com/Tohidkhan6332/TOHID-AI'
+global.fgsc = 'https://github.com/ayik/ARBOT-AI'
 global.fgyt = 'https://youtube.com/@Tohidkhan_6332'
 global.fgpyp = 'https://GitHub.com/Tohidkhan6332'
 global.fglog = 'https://i.imgur.com/WnKjrJt.jpeg'
